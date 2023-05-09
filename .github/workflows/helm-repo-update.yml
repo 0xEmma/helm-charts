@@ -1,0 +1,3 @@
+- name: Helm Package
+  uses: Flydiverny/helm-package-action@0.1.0
+  args: "*"
