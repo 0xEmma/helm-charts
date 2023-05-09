@@ -13,7 +13,7 @@ on:
 
 env:
   HELM_VERSION: 3.11.2
-  CHARTS_SRC_DIR: "packages"
+  CHARTS_SRC_DIR: "."
   TARGET_REGISTRY: ghcr.io/0xemma/helm-charts
 
 jobs:
