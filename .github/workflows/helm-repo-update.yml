@@ -15,6 +15,10 @@ permissions:
   id-token: write
 
 jobs:
-  - name: Helm Package
-    uses: Flydiverny/helm-package-action@0.1.0
-    args: "*"
+  build:
+    name: Build Helm Packages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Helm Package
+        uses: Flydiverny/helm-package-action@0.1.0
+        args: "*"
