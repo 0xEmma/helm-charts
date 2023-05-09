@@ -13,4 +13,5 @@ By default, it uses the loadbalancer and port 9001 & 9030
 
 # Change Log
 
+0.1.2 - Change Common template to maintained version
 0.1.1 - Add Icon + Signing
