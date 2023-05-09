@@ -1,7 +1,7 @@
 name: "Charts: Release to GHCR OCI"
 
 on:
-  workflow_call:
+  workflow_dispatch:
     inputs:
       charts:
         description: >
