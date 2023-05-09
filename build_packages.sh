@@ -23,7 +23,7 @@ for dirname in "$TARGET"/*/; do
 
 	chart=$(basename "$dirname")
 	echo "Packaging $chart from $dirname"
-	helm package "$dirname" || exit $?
+	helm package "$dirname" -d packages || exit $?
 done
 
 exit 0
