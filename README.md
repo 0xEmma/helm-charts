@@ -2,5 +2,5 @@
 
 
 ```bash
-helm repo add https://0xemma.github.io/helm-charts/
+helm repo add 0xemma https://0xemma.github.io/helm-charts/
 ```
