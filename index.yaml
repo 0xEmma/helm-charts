@@ -3,7 +3,7 @@ entries:
   tor-relay:
   - apiVersion: v2
     appVersion: "2.4"
-    created: "2023-05-09T17:52:25.3133743-04:00"
+    created: "2023-05-09T18:31:11.5129551-04:00"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -18,4 +18,4 @@ entries:
     urls:
     - https://0xemma.github.io/helm-charts/packages/tor-relay-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-09T17:52:25.3113755-04:00"
+generated: "2023-05-09T18:31:11.5109548-04:00"
