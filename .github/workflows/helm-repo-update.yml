@@ -23,9 +23,9 @@ jobs:
         uses: actions/checkout@v3
       - name: Install Helm
         run: "curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash"
-      - name: LS
-        run: ls /home/runner/work/helm-charts/helm-charts
       - name: Build Packages
-        run: ${GITHUB_WORKSPACE}/build_packages.sh
+        run: | 
+          chmod +x ${GITHUB_WORKSPACE}/build_packages.sh
+          ${GITHUB_WORKSPACE}/build_packages.sh
       - name: Update Index
         run: "helm repo index --url https://0xemma.github.io/helm-charts/ packages"
