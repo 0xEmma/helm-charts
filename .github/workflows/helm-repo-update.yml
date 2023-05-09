@@ -30,7 +30,7 @@ jobs:
           passphrase: ${{ secrets.PASSPHRASE }}
       - name: Convert GPG to legacy format for helm
         run: |
-          gpg --export-secret-keys >~/.gnupg/pubring.gpg
+          gpg --export-secret-keys --batch >~/.gnupg/pubring.gpg
       - name: Build Packages
         run: | 
           chmod +x ${GITHUB_WORKSPACE}/build_packages.sh
