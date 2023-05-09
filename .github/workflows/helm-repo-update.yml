@@ -22,7 +22,7 @@ jobs:
       - name: Install Helm
         run: "curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash"
       - name: LS
-        run: ls ${GITHUB_WORKSPACE}
+        run: ls /home/runner/work/helm-charts/helm-charts
       - name: Build Packages
         run: ${GITHUB_WORKSPACE}/build_packages.sh
       - name: Update Index
