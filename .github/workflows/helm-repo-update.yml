@@ -21,6 +21,8 @@ jobs:
     steps:
       - name: Install Helm
         run: "curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash"
+      - name: LS
+        run: ls ${GITHUB_WORKSPACE}
       - name: Build Packages
         run: ${GITHUB_WORKSPACE}/build_packages.sh
       - name: Update Index
