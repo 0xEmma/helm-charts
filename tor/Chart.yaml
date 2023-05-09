@@ -33,3 +33,5 @@ dependencies:
 - name: common
   version: 4.5.2
   repository: https://library-charts.k8s-at-home.com
+
+icon: https://upload.wikimedia.org/wikipedia/commons/c/c9/Tor_Browser_icon.svg
