@@ -23,6 +23,14 @@ jobs:
         uses: actions/checkout@v3
       - name: Install Helm
         run: "curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash"
+      - name: Import GPG key
+        uses: crazy-max/ghaction-import-gpg@v5
+        with:
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+      - name: Convert GPG to legacy format for helm
+        run: |
+          export GPG_TTY=$(tty)
+          gpg --export-secret-keys --batch > /home/runner/.gnupg/pubring.gpg
       - name: Build Packages
         run: | 
           chmod +x ${GITHUB_WORKSPACE}/build_packages.sh

@@ -3,13 +3,13 @@ entries:
   tor-relay:
   - apiVersion: v2
     appVersion: "2.4"
-    created: "2023-05-09T22:33:36.734496102Z"
+    created: "2023-05-09T23:02:04.708371443Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
       version: 4.5.2
     description: Running a Tor Relay on Kubernetes
-    digest: 0c35d313e9a2670307bcb8ea0495c43b5755e9b584c5e1eafdf31901b226190e
+    digest: a38fac74f79332ae891d3675922a956a424bf229d83d92c5d77439dccb3fa360
     icon: https://upload.wikimedia.org/wikipedia/commons/c/c9/Tor_Browser_icon.svg
     maintainers:
     - email: emma@0xem.ma
@@ -19,4 +19,4 @@ entries:
     urls:
     - https://0xemma.github.io/helm-charts/packages/tor-relay-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-09T22:33:36.731562171Z"
+generated: "2023-05-09T23:02:04.697900028Z"

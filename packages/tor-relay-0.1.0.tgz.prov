@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: "2.4"
+dependencies:
+- - name: common
+  repository: https://library-charts.k8s-at-home.com
+  version: 4.5.2
+description: Running a Tor Relay on Kubernetes
+icon: https://upload.wikimedia.org/wikipedia/commons/c/c9/Tor_Browser_icon.svg
+maintainers:
+- - email: emma@0xem.ma
+  name: 0xEmma
+name: tor-relay
+type: application
+version: 0.1.0
+
+...
+files:
+  tor-relay-0.1.0.tgz: sha256:a38fac74f79332ae891d3675922a956a424bf229d83d92c5d77439dccb3fa360
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJkWtDsCRBjg8gMw+2lpQAAUNoQACeE5lP4oZttXug99n61daB3
+idGV29NKbMt8/sOOozjK8rOuU80qCeTUtIUSmqcUxiaCo2Pp8GYlXBYZiHz5Tn8Z
+wa8eJs9zN8SDRnje94Uj64HnbCYFr+nukR/h115g+9FTuXFLt0gyctWrAUu48Txy
+RG9Sh8R2UOJjGJcDfg1JvAys2I5VdBTiLz7fXTATL7rUek6kYmMw+siWnZqk3ctb
+9EBz0HpFuCptDt2x0+PM8OnbNtI2Ps5Jc7GrkH5AKRtFsNFpxlA9Uwd+nXPiUaz9
+lrwPOyRZepAq4pYqEEx5emohBAknS3lcgNlY5OSjPCdtbuuxsHWOv8cEiq9yOTz/
+cps8YWq//7MFMreccuFDH1iBTtaZAstYx2lcdtNoDfPgxhgbxssQY/DSPWeH5dg6
+ReIVpwOHOJSiGNO8BSBTOvShqxrgYQ5AnK1kYs1UT6Lz5+Ybf8lgbKhQ4OIWVOPw
+o6GIq+mv3yFM3ceyh5qzUjgBDv+quUQcL/25hDJljPwx6zIxRC/qgvEG63BCYhpL
+ZzFQiOQIZLXjbcbeIbuwrZt8D+h4+Q/yXB8iu51eXjvCda92s8HcevdcPz6SiURT
+R9d0rZooF1hDTq3GeL/z/OGSEDZ1IARaQ5jVBzfgaEyRh1+BEH+fQ5isPmtpY0JO
+f+pBcZ3Z6x2z5iLuQdk2
+=ea41
+-----END PGP SIGNATURE-----
