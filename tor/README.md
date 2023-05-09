@@ -8,3 +8,9 @@ Simple chart for deploy a tor-relay in Kubernetes.
 - If you wish to migrate an existing relay you can copy the keys into the PVC
 
 By default, it uses the loadbalancer and port 9001 & 9030
+
+
+
+# Change Log
+
+0.1.1 - Add Icon + Signing
