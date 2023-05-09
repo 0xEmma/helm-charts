@@ -19,6 +19,13 @@ jobs:
     name: Build Helm Packages
     runs-on: ubuntu-latest
     steps:
-      - name: Helm Package
-        uses: Flydiverny/helm-package-action@0.1.0
-        args: "*"
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Install Helm
+        run: "curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash"
+      - name: Build Packages
+        run: | 
+          chmod +x ${GITHUB_WORKSPACE}/build_packages.sh
+          ${GITHUB_WORKSPACE}/build_packages.sh
+      - name: Update Index
+        run: "helm repo index --url https://0xemma.github.io/helm-charts/ packages"
