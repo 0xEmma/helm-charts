@@ -1,0 +1,58 @@
+# Default values for tor.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+
+image:
+  repository: joshgaby/tor-server
+  pullPolicy: IfNotPresent
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: "latest"
+
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+
+
+service:
+  main:
+    type: LoadBalancer
+    ports:
+      http:
+        enabled: true
+        port: 9001
+      dirport:
+        enabled: true
+        port: 9030
+
+persistence:
+  config:
+    enabled: true
+    mountPath: /etc/tor
+    accessMode: ReadWriteMany
+    size: 5Gi
+  data:
+    enabled: true
+    mountPath: /var/lib/tor
+    accessMode: ReadWriteMany
+    size: 5Gi
+
+env:
+  TOR_NICKNAME: "ChangeMe"
+  CONTACT_EMAIL: "change@me.me"
+
+resources:
+  limits:
+    cpu: 200m
+    memory: 512Mi
+  requests:
+    cpu: 100m
+    memory: 128Mi
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 2 # Tor will only accept 2 processes per IP
+  targetCPUUtilizationPercentage: 80
+  # targetMemoryUtilizationPercentage: 80
