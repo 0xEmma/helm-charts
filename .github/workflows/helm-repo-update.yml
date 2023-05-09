@@ -29,3 +29,10 @@ jobs:
           ${GITHUB_WORKSPACE}/build_packages.sh
       - name: Update Index
         run: "helm repo index --url https://0xemma.github.io/helm-charts/ packages"
+      - name: Push Changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Update Helm Pkg and Index"
+          git push
