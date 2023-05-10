@@ -1,15 +1,33 @@
 apiVersion: v1
 entries:
+  cowrie:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-05-10T00:02:28.846813496Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s.github.io/helm-charts/
+      version: 1.5.0
+    description: SSH/Telnet Honeypot
+    digest: 34f5b5c6b1d5f1b89e1a31ca103056695262a58b3c7cf7208d81f10aca910eff
+    maintainers:
+    - email: emma@0xem.ma
+      name: 0xEmma
+    name: cowrie
+    type: application
+    urls:
+    - https://0xemma.github.io/helm-charts/packages/cowrie-0.1.0.tgz
+    version: 0.1.0
   tor-relay:
   - apiVersion: v2
     appVersion: "2.4"
-    created: "2023-05-09T23:28:21.009513984Z"
+    created: "2023-05-10T00:02:28.856575247Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts/
       version: 1.5.0
     description: Running a Tor Relay on Kubernetes
-    digest: c21f312603a559b41222c89d7992232fc4cb7205dff075ddb83ef88162471f6e
+    digest: 277dd4a1d3054912fc52300cf8e78f40ac8800ebdd256550e50f330dd3d39f6c
     icon: https://upload.wikimedia.org/wikipedia/commons/c/c9/Tor_Browser_icon.svg
     maintainers:
     - email: emma@0xem.ma
@@ -21,7 +39,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: "2.4"
-    created: "2023-05-09T23:28:21.006534097Z"
+    created: "2023-05-10T00:02:28.852775489Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -39,7 +57,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: "2.4"
-    created: "2023-05-09T23:28:21.003041813Z"
+    created: "2023-05-10T00:02:28.849975345Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -55,4 +73,4 @@ entries:
     urls:
     - https://0xemma.github.io/helm-charts/packages/tor-relay-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-09T23:28:20.994841848Z"
+generated: "2023-05-10T00:02:28.841007106Z"
