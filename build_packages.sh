@@ -1,5 +1,5 @@
 #!/bin/bash
-TARGET=.
+TARGET=charts
 
 set -euo pipefail
 
