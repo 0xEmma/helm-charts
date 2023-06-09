@@ -47,6 +47,12 @@ persistence:
     mountPath: /music
     accessMode: ReadWriteMany
     size: 5Gi
+    # If you wish to use a hostpath, update comment out the access mode/size, and uncomment the following
+    # type: hostPath
+    # hostPath: /path/to/your/music
+    # If you have an existing PVC with your music:
+    # type: pvc
+    # existingClaim: myMusicClaim
 
 env:
   ND_SCANSCHEDULE: 1h
