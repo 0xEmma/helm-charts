@@ -6,7 +6,7 @@ This chart is not maintained by the upstream project and any issues with the cha
 
 ## Install
 
-1) Add the Helm Repo`helm repo add 0xemma https://0xemma.github.io/helm-charts`
+1) Add the Helm Repo `helm repo add 0xemma https://0xemma.github.io/helm-charts`
 
 2) `helm install navidrome 0xemma/Navidrome`
 
