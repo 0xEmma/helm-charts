@@ -1,15 +1,34 @@
 apiVersion: v1
 entries:
+  Navidrome:
+  - apiVersion: v2
+    appVersion: 0.49.3
+    created: "2023-06-09T13:12:04.106018744Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s.github.io/helm-charts/
+      version: 1.5.0
+    description: Navidrome Helm Chart
+    digest: b0c9ed012dc938106d3bb603c972c3d437ccf12fe320d3212c5a940f3e1fad17
+    icon: https://avatars.githubusercontent.com/u/26692192?s=200&v=4
+    maintainers:
+    - email: emma@0xem.ma
+      name: 0xEmma
+    name: Navidrome
+    type: application
+    urls:
+    - https://0xemma.github.io/helm-charts/packages/Navidrome-0.0.1.tgz
+    version: 0.0.1
   cowrie:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-10T00:09:18.803705928Z"
+    created: "2023-06-09T13:12:04.111836375Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts/
       version: 1.5.0
     description: SSH/Telnet Honeypot
-    digest: f96bd729ba943c0803dad9552f729b9af8e095b4b2d8ae3d9b88f631f5b4959f
+    digest: f63a4c65f9400ae0a867e0bac0942c2b529b10de0234da66b8937e515247c93a
     maintainers:
     - email: emma@0xem.ma
       name: 0xEmma
@@ -21,13 +40,13 @@ entries:
   tor-relay:
   - apiVersion: v2
     appVersion: "2.4"
-    created: "2023-05-10T00:09:18.815841415Z"
+    created: "2023-06-09T13:12:04.130962877Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts/
       version: 1.5.0
     description: Running a Tor Relay on Kubernetes
-    digest: 3c0d071d53876aaa53cdcbde8004983af91307812505fb264dbead779d9be728
+    digest: 86eb01af68bdd9ac3b0edba319b7a1a6340a5c1921cad9b24b7009d971a049c3
     icon: https://upload.wikimedia.org/wikipedia/commons/c/c9/Tor_Browser_icon.svg
     maintainers:
     - email: emma@0xem.ma
@@ -39,7 +58,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: "2.4"
-    created: "2023-05-10T00:09:18.811962019Z"
+    created: "2023-06-09T13:12:04.126855455Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -57,7 +76,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: "2.4"
-    created: "2023-05-10T00:09:18.807503024Z"
+    created: "2023-06-09T13:12:04.115766196Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -73,4 +92,4 @@ entries:
     urls:
     - https://0xemma.github.io/helm-charts/packages/tor-relay-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-10T00:09:18.796500035Z"
+generated: "2023-06-09T13:12:04.102589926Z"
