@@ -5,6 +5,7 @@ Simple chart for deploy a Navidrome Instance in Kubernetes.
 ## Install
 
 1) Add the Helm Repo`helm repo add 0xemma https://0xemma.github.io/helm-charts`
+
 2) `helm install navidrome 0xemma/Navidrome`
 
 ## Configuration
@@ -17,6 +18,9 @@ By default, its configured to create a new PVC, however you can uncomment the pa
 # Change Log
 
 0.0.4 - Hostpath/existing pvc values template
+
 0.0.3 - Fix default port typo from 4553 -> 4533
+
 0.0.2 - Bug Fix
+
 0.0.1 - Init
