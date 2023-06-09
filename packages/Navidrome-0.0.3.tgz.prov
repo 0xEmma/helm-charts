@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 0.49.3
+dependencies:
+- - name: common
+  repository: https://bjw-s.github.io/helm-charts/
+  version: 1.5.1
+description: Navidrome Helm Chart
+icon: https://avatars.githubusercontent.com/u/26692192?s=200&v=4
+maintainers:
+- - email: emma@0xem.ma
+  name: 0xEmma
+name: Navidrome
+type: application
+version: 0.0.3
+
+...
+files:
+  Navidrome-0.0.3.tgz: sha256:d347ea18b7f2b3a22ef966a32b3149d2616f61b53acde9fd6e90b1688da0d371
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJkgykRCRBjg8gMw+2lpQAAX2AQAIM2QeLnnH2y3vlmEw67mOzb
+L29oZ6JejnD0g0lDhsibUmoxh4ujVUoVDXxkF27F08M1QPn7dDYDgCRQgI1mN8Yd
+/2ZMZlXj2RQ/yme1i9LhOMpI77vy6WA24Mjeg2Lj7U6dXfimNOg0bdMYBDFyOfkw
+3avyXVuJIrI9FNWOQrkYtktMGG0sIV+dgt5g0X6nMPmiq33U4bOZRG8GWoGVz9Rl
+3dMJQOyNmnG3vjiBFPVerHCUjmzZxFM++PDzEYjkhpQz4pqjUnYkPues7QsA6klh
+Ac1I39sjTFD9NpRxYYewYFHHtB084Bk/jaVuzyUrWLAhqkYqHaW4/87OQsA6sEsf
+NME1WN3HLtnd6zkPOfwQ0Te+UQP9k15IgnHllU9+zDo2+hMewBkEHBgtomtnI4v6
+MEDy1LtaWV7EYIaSXLGDwiIE3UMS6P6wV6Lm6fophCRxEbeqe2DBrz/ch9Pb5TUM
+j6ETpOdh+VOxvh27HKQuXaR9xxWX1/DpnaMU4AYuKXijFD5KsrLQsopCVdJVOtCF
+DicM7EUDzDXxjjw3zSydtWOfZNegYNIJU8XTj3/IA4e9wYMTyOtDbIGlQwRwcVgb
+IR/rTQw34a2aSwKy7Eiq2OY5XaOBrx1xwk4gRma/y1QqzEu/FRqApGz7suOkXgK7
+l/5fm5/Rcpayk6apRSb5
+=3qtk
+-----END PGP SIGNATURE-----
