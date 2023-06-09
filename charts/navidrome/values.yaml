@@ -21,7 +21,7 @@ service:
     ports:
       http:
         enabled: true
-        port: 4553
+        port: 4533
 
 
 ingress:

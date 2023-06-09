@@ -11,5 +11,6 @@ Simple chart for deploy a Navidrome Instance in Kubernetes.
 
 # Change Log
 
+0.0.3 - Fix default port typo from 4553 -> 4533
 0.0.2 - Bug Fix
 0.0.1 - Init
