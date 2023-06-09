@@ -15,7 +15,7 @@ type: application
 # This is the chart version. This version number should be incremented each time you make changes
 # to the chart and its templates, including the app version.
 # Versions are expected to follow Semantic Versioning (https://semver.org/)
-version: 0.0.1
+version: 0.0.2
 
 # This is the version number of the application being deployed. This version number should be
 # incremented each time you make changes to the application. Versions are not expected to
@@ -31,7 +31,7 @@ maintainers:
 # Chart.yaml
 dependencies:
 - name: common
-  version: 1.5.0
+  version: 1.5.1
   repository: https://bjw-s.github.io/helm-charts/
 
 icon: https://avatars.githubusercontent.com/u/26692192?s=200&v=4
