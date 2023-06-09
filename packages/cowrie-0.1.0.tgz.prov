@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 1.16.0
+dependencies:
+- - name: common
+  repository: https://bjw-s.github.io/helm-charts/
+  version: 1.5.0
+description: SSH/Telnet Honeypot
+maintainers:
+- - email: emma@0xem.ma
+  name: 0xEmma
+name: cowrie
+type: application
+version: 0.1.0
+
+...
+files:
+  cowrie-0.1.0.tgz: sha256:f96bd729ba943c0803dad9552f729b9af8e095b4b2d8ae3d9b88f631f5b4959f
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJkWuCuCRBjg8gMw+2lpQAAq3sQAEeKmAwNP1s+gjgh0qk4u/u4
+I2siDcg2279m0deQQ3CmdzA28nQVTzVDJH/xns5FfLWBiglsUJhDkmgd67qniirz
+Jew0RnLP2JH9SI9i26rLBSHQiWo/iupo+c5Qy1PijcazwtsRdE4lzmvhpQL7xbo8
+qAWIe7Dzb10VKxMMSbrOQFA1xQ7tFgERZhKkF1G9XWulz2L9zlj9YEo+4wKIDD4q
+LCC/ZBroQbMxttSrg05t1ge1qFIB3zcu0oc26Gzs0+ezWYyetZQOz+x246XZ2Hq8
+hTq5HutSoSDUxg4RWrXmvhXnWML0Z2f0JQO/JaU5EuNvFM1sI276KgUA3mqng4UF
+F6Q+NC2kI2zEld8hQV7pcaEeUk/DOjVWAP5H5ISe/txYFjeE1hwAhDhCC6ckyW1g
+getP2OiI+FdySaAd6d+62rfTZJh8nGlEcESOibkRSUaP0e0k8eYaX2wo6WN/4yrh
+ZV+IBwtisuh6/gaIDvPhQ0j/y5QqEa+VPQnm5kgZ4DMrDS57jndi+nHB5FaWM4Xe
+p8wnRFTCyOkB29fiING42ofVIqD4CtJweEopmR5mAQGn9iYWm3i/47uRJXSfsHLk
+e5o6YUYk4+0JMGmlLhV2XFo7j4+CIrdvrERHTA2hkX0m39a45TZnmwwYctxMVKnJ
+kr8QGxq7zs+x7MA4JLg1
+=4hVT
+-----END PGP SIGNATURE-----
