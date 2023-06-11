@@ -22,7 +22,8 @@ service:
       http:
         enabled: true
         port: 3212
-
+env:
+  ORIGIN: url_host
 
 ingress:
   # -- Enable and configure ingress for navidrome
