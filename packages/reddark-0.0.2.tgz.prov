@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 0.0.1
+dependencies:
+- - name: common
+  repository: https://bjw-s.github.io/helm-charts/
+  version: 1.5.1
+description: Reddark Helm Chart
+maintainers:
+- - email: emma@0xem.ma
+  name: 0xEmma
+name: reddark
+type: application
+version: 0.0.2
+
+...
+files:
+  reddark-0.0.2.tgz: sha256:0d2b13fc60cc6dccf463d053b53f957ea8ea539a1bc5b7193e2fd6618acc788f
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJkhidSCRBjg8gMw+2lpQAANK0QAKTu+IqJ15mgltWiBdNgVFTp
+2bL2gebCbxK4K6ekJ/xvxkzh3lzHtHeAPE98uO/0Ya5oLvBZMsxxTL5gNwFS5UqX
+enLMhjK803W8DUMrad50irgGZBICVCnL98co1A8rpkgErZN8jDjRl2NbY6tBYNxm
+TMGaL7egdLB3CWQNMOC/JBIFTGhE0oLELtadfuGzGaIjjLwnN5dgl4Ljw7jMfQtY
+doZ1ptwLqXCA4LQjiK/emu+yq7eguTdwqVZwfilAooAA7/YdMcRT5xebdoSSI9NS
+B6axm04PRJLFJaDpLLxrkcKc4kWb0gF0PiVjetNHR9f7MNepnG2m9hQemzt1PgeX
+HRdoklpZxUG7cFfW/rdcLvb10AFko/3Tch74SrFU9Dd2l3fBT/5YocG0pIbcVoE8
+YbEtviYvIZN5DnX7SMk6SLkKUnB5DV7AN59cG2Z/xZOeN0nXHHu4BMMSwG0xaxko
+3PE5XZxjdV+Uy+uLkDR69vkzWvk0Q894Cz/O7dEVKE28N20ERrkn7tWXj1S5+mOr
+mLEZq2Lxhax73S+Mies1pC6fY0kP8mkhcMTHezdfM01F4vBKPoyUThaeSAgmQXm4
+T2qeh5jOmzHj8nxHv0lBgIXhG93rR1zNXkmPEpV4PmbO7FrEm6AArWVaTbNt133y
+Y+QgfJK7QzsT9mY8TZNK
+=Vm2z
+-----END PGP SIGNATURE-----
