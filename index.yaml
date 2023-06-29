@@ -3,7 +3,7 @@ entries:
   Navidrome:
   - apiVersion: v2
     appVersion: 0.49.3
-    created: "2023-06-11T19:58:10.531468248Z"
+    created: "2023-06-29T01:46:00.550186837Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts/
@@ -21,7 +21,7 @@ entries:
     version: 0.0.4
   - apiVersion: v2
     appVersion: 0.49.3
-    created: "2023-06-11T19:58:10.527858406Z"
+    created: "2023-06-29T01:46:00.54682937Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts/
@@ -39,7 +39,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 0.49.3
-    created: "2023-06-11T19:58:10.522959314Z"
+    created: "2023-06-29T01:46:00.543185881Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts/
@@ -58,13 +58,13 @@ entries:
   cowrie:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-11T19:58:10.544201349Z"
+    created: "2023-06-29T01:46:00.5535056Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts/
       version: 1.5.0
     description: SSH/Telnet Honeypot
-    digest: f92039b82d8c5b75d7e9d2124c5ea7d55429bf72bf00a40fe243299914d92c15
+    digest: b9df03ff0d02d011d1f28eecee6cdb44573337548a63951f4a865754c3909dce
     maintainers:
     - email: emma@0xem.ma
       name: 0xEmma
@@ -73,16 +73,35 @@ entries:
     urls:
     - https://0xemma.github.io/helm-charts/packages/cowrie-0.1.0.tgz
     version: 0.1.0
+  navidrome:
+  - apiVersion: v2
+    appVersion: 0.49.3
+    created: "2023-06-29T01:46:00.565485351Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s.github.io/helm-charts/
+      version: 1.5.1
+    description: Navidrome Helm Chart
+    digest: f5693178c3c6613690f84579133df90f241b32d0677b4086416b31df17b5bc5b
+    icon: https://avatars.githubusercontent.com/u/26692192?s=200&v=4
+    maintainers:
+    - email: emma@0xem.ma
+      name: 0xEmma
+    name: navidrome
+    type: application
+    urls:
+    - https://0xemma.github.io/helm-charts/packages/navidrome-0.0.4.tgz
+    version: 0.0.4
   reddark:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2023-06-11T19:58:10.551308628Z"
+    created: "2023-06-29T01:46:00.572223486Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts/
       version: 1.5.1
     description: Reddark Helm Chart
-    digest: 0d2b13fc60cc6dccf463d053b53f957ea8ea539a1bc5b7193e2fd6618acc788f
+    digest: c8f6a5ddc1d01deb452614cb4b04d3a976ddcbf6dc892bfcb10532a93a9511e0
     maintainers:
     - email: emma@0xem.ma
       name: 0xEmma
@@ -93,7 +112,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2023-06-11T19:58:10.547689786Z"
+    created: "2023-06-29T01:46:00.568759211Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts/
@@ -111,13 +130,13 @@ entries:
   tor-relay:
   - apiVersion: v2
     appVersion: "2.4"
-    created: "2023-06-11T19:58:10.563102192Z"
+    created: "2023-06-29T01:46:00.582964039Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts/
       version: 1.5.0
     description: Running a Tor Relay on Kubernetes
-    digest: a9e94a4ea6faf74c0683aa40325503eff7cf9bbe03a88e083dd9de89613dde19
+    digest: 5fb9a1adbb77ce0bc303d0ca3f27cee740c007127257e2b981cbce527854bb9a
     icon: https://upload.wikimedia.org/wikipedia/commons/c/c9/Tor_Browser_icon.svg
     maintainers:
     - email: emma@0xem.ma
@@ -129,7 +148,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: "2.4"
-    created: "2023-06-11T19:58:10.559181838Z"
+    created: "2023-06-29T01:46:00.578438579Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -147,7 +166,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: "2.4"
-    created: "2023-06-11T19:58:10.554954172Z"
+    created: "2023-06-29T01:46:00.575324732Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -163,4 +182,4 @@ entries:
     urls:
     - https://0xemma.github.io/helm-charts/packages/tor-relay-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-11T19:58:10.5175316Z"
+generated: "2023-06-29T01:46:00.538094177Z"
