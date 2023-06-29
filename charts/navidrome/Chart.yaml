@@ -1,5 +1,5 @@
 apiVersion: v2
-name: Navidrome
+name: navidrome
 description: Navidrome Helm Chart
 
 # A chart can be either an 'application' or a 'library' chart.
