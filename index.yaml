@@ -3,13 +3,13 @@ entries:
   Navidrome:
   - apiVersion: v2
     appVersion: 0.49.3
-    created: "2023-06-11T19:52:07.615429278Z"
+    created: "2023-06-11T19:58:10.531468248Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts/
       version: 1.5.1
     description: Navidrome Helm Chart
-    digest: 5b2917eb2ec05e974da3e63faac2afdf6b447bff3a43a3b6d5e267e55dd07a10
+    digest: 4fa38f45b2a3f9428081b2f0a5e8d31c739597583c60b09c1181b918b3ce969f
     icon: https://avatars.githubusercontent.com/u/26692192?s=200&v=4
     maintainers:
     - email: emma@0xem.ma
@@ -21,7 +21,7 @@ entries:
     version: 0.0.4
   - apiVersion: v2
     appVersion: 0.49.3
-    created: "2023-06-11T19:52:07.611980347Z"
+    created: "2023-06-11T19:58:10.527858406Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts/
@@ -39,7 +39,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 0.49.3
-    created: "2023-06-11T19:52:07.608833819Z"
+    created: "2023-06-11T19:58:10.522959314Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts/
@@ -58,13 +58,13 @@ entries:
   cowrie:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-11T19:52:07.61898831Z"
+    created: "2023-06-11T19:58:10.544201349Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts/
       version: 1.5.0
     description: SSH/Telnet Honeypot
-    digest: d303025e4993e07efcb76bd221b333ca27a947042ca70b5eeb19a8fa75846cfb
+    digest: f92039b82d8c5b75d7e9d2124c5ea7d55429bf72bf00a40fe243299914d92c15
     maintainers:
     - email: emma@0xem.ma
       name: 0xEmma
@@ -76,7 +76,24 @@ entries:
   reddark:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2023-06-11T19:52:07.623508951Z"
+    created: "2023-06-11T19:58:10.551308628Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s.github.io/helm-charts/
+      version: 1.5.1
+    description: Reddark Helm Chart
+    digest: 0d2b13fc60cc6dccf463d053b53f957ea8ea539a1bc5b7193e2fd6618acc788f
+    maintainers:
+    - email: emma@0xem.ma
+      name: 0xEmma
+    name: reddark
+    type: application
+    urls:
+    - https://0xemma.github.io/helm-charts/packages/reddark-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-06-11T19:58:10.547689786Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts/
@@ -94,13 +111,13 @@ entries:
   tor-relay:
   - apiVersion: v2
     appVersion: "2.4"
-    created: "2023-06-11T19:52:07.633218638Z"
+    created: "2023-06-11T19:58:10.563102192Z"
     dependencies:
     - name: common
       repository: https://bjw-s.github.io/helm-charts/
       version: 1.5.0
     description: Running a Tor Relay on Kubernetes
-    digest: 050e259a096a4a82ead38df97dcf65f5281aeacdf800f909a44b76e2dbc029f6
+    digest: a9e94a4ea6faf74c0683aa40325503eff7cf9bbe03a88e083dd9de89613dde19
     icon: https://upload.wikimedia.org/wikipedia/commons/c/c9/Tor_Browser_icon.svg
     maintainers:
     - email: emma@0xem.ma
@@ -112,7 +129,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: "2.4"
-    created: "2023-06-11T19:52:07.630151111Z"
+    created: "2023-06-11T19:58:10.559181838Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -130,7 +147,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: "2.4"
-    created: "2023-06-11T19:52:07.626844381Z"
+    created: "2023-06-11T19:58:10.554954172Z"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -146,4 +163,4 @@ entries:
     urls:
     - https://0xemma.github.io/helm-charts/packages/tor-relay-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-11T19:52:07.605210186Z"
+generated: "2023-06-11T19:58:10.5175316Z"
