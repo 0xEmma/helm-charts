@@ -1,0 +1,73 @@
+# Default values for navidrome.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+
+image:
+  repository: lscr.io/linuxserver/netbootxyz
+  pullPolicy: IfNotPresent
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: ""
+
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+
+
+service:
+  main:
+    type: LoadBalancer # So we can point directly to TFTP, as it doesnt allow changing ports
+    ports:
+      http:
+        enabled: true
+        port: 3000
+      tftp:
+        enabled: true
+        port: 69
+      http-assets:
+        enabled: true
+        port: 80
+
+
+
+ingress:
+  # -- Enable and configure ingress for navidrome
+  main:
+    enabled: false
+    hosts:
+      - host: chart-example.local
+        paths:
+          - path: /
+            pathType: Prefix
+            service:
+              port: http
+
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+    accessMode: ReadWriteMany
+    size: 5Gi
+  assets:
+    enabled: true
+    mountPath: /assets
+    accessMode: ReadWriteMany
+    size: 5Gi
+env:
+  TZ: America/Toronto
+
+resources:
+  limits:
+    cpu: 200m
+    memory: 512Mi
+  requests:
+    cpu: 100m
+    memory: 128Mi
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 1
+  targetCPUUtilizationPercentage: 80
+  # targetMemoryUtilizationPercentage: 80
