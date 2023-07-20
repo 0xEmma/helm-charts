@@ -4,8 +4,4 @@
 ```bash
 helm repo add 0xemma https://0xemma.github.io/helm-charts/
 ```
-
-Charts:
-- Tor
-- Navidrome
-- Cowrie
+![Alt](https://repobeats.axiom.co/api/embed/8fe35b4c9f4b609c66934243b21a4371135be891.svg "Repobeats analytics image")
