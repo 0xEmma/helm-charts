@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: main
+dependencies:
+- - name: common
+  repository: https://bjw-s.github.io/helm-charts/
+  version: 1.5.1
+description: Parrot Mirror All-in-One
+icon: parrotsec.org/favicon.png
+maintainers:
+- - email: emma@0xem.ma
+  name: 0xEmma
+name: parrot-mirror
+type: application
+version: 1.0.0
+
+...
+files:
+  parrot-mirror-1.0.0.tgz: sha256:698550501dc1d3c9f0e976e2c52ee493aa151dd568ccc7d328ac46f41495838b
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJlI7FHCRBjg8gMw+2lpQAAVCUQAFxuNBnIudjYM+JcTx8GSKfw
+eLno61R3abkKooVRG9GR8xD5IKLEtDE6VtWGf5Bpi9/7Au0v79mKKkEj+Mk8nCLn
+HJrXdqzuDh25NAMg6O4apfJQFXHdaTLRTCCCMITlMbs8G+kb5b7Y2r5Vg5O0IwcI
+0WpQiHeLTifGYZxTPPf2XztnVJ3Ejm9/ut7LLpxus/cliF9hluM+RbJ/bJPMmXQl
+UI+iTc32YMQHbLELD7ZlIJtxnQvKEotZP68b3j6m/kfNBsatnQxVsHt+2vg9nZmW
+9vi7qHg4Cp8vaS8fzPoU80vCKBrl2dJQ+XAxTmGTfjOx11Nl5jUMfq+blaRviV3R
+Qn7zcBUNKGYYuL5ZTsxmuWpyifvv43V13a5iYLTIZaNOkGl6Jz0VJaQwh7+QESJH
+YoDqCeQQdOq2hwVohirfsIAm8TiZVWliBsg8IIp51VoIk+xzStoydShQD+3RbBQm
+hBPgT6iJ5D8FPirgM0BDHA5jbD+ADKjVL+cnEsGaXwDHEKXcOc5ceKtkQ33f7gmK
+zGIOJztWfxuK8yQ5I6OAkepiIzwbbaDCOipnIYGoJCT6r94+qj2bVxsuFbE8FKwz
+qZvPzuQgUCbuvXHOX6YYZzv1POcKkODiJvrzHfS9wCcRRPZqGnB/2hOVsJufDf8F
+C3nfrT7+i+OrOJvZY6Se
+=HWtl
+-----END PGP SIGNATURE-----
