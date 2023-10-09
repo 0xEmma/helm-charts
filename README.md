@@ -9,3 +9,5 @@ Charts:
 - Tor
 - Navidrome
 - Cowrie
+- netbootxyz
+- Parrot Mirro
