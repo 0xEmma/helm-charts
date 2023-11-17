@@ -20,6 +20,8 @@ Under the persistence, music you can set which type of storage backend you'd lik
 By default, its configured to create a new PVC, however you can uncomment the particular lines to use a hostpath, or an existing PVC
 
 # Change Log
+0.0.6 - Update navidrome to 0.50.0
+
 0.0.5 - Fix uppercase chart name breaking chart installs
 
 0.0.4 - Hostpath/existing pvc values template
